@@ -1,0 +1,26 @@
+﻿@model Entity.Concrete1.Supplier
+@{
+    ViewBag.Title = "SupplierAdd";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>SupplierAdd</h2>
+
+@using (Html.BeginForm("AddSupplier", "Product", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.Label("Supplier Adı")
+        @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+        <br />
+
+        @Html.Label("Supplier")
+        @Html.TextBoxFor(x => x.ContactPerson, new { @class = "form-control" })
+        <br />
+
+        @Html.Label("Telefon")
+        @Html.TextBoxFor(x => x.Phone, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-primary">Kaydet</button>
+    </div>
+
+}

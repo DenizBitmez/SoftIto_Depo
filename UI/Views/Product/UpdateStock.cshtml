@@ -1,0 +1,28 @@
+﻿@model Entity.Concrete1.StockDetails
+@{
+    ViewBag.Title = "UpdateStock";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>UpdateStock</h2>
+
+@using (Html.BeginForm("UpdateStock", "Product", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.HiddenFor(x => x.StockDetailsId) 
+
+        @Html.Label("Ürün Seç")
+        @Html.DropDownListFor(x => x.ProductId, (List<SelectListItem>)ViewBag.Products, "-- Ürün Seçiniz --", new { @class = "form-control" })
+        <br />
+
+        @Html.Label("Ürün Adedi")
+        @Html.TextBoxFor(x => x.Quantity, new { @class = "form-control", type = "number" })
+        <br />
+
+        @Html.Label("Ürün Tarihi")
+        @Html.TextBoxFor(x => x.Date, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+        <br />
+
+        <button class="btn btn-primary">Güncelle</button>
+    </div>
+}

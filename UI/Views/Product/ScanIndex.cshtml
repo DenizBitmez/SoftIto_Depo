@@ -1,0 +1,33 @@
+﻿@model List<Entity.Concrete1.Barcode>
+
+@{
+    ViewBag.Title = "ScanIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Barkod Numarası</th>
+            <th>Ürün Adı</th>
+            <th>Hareket Tipi</th>
+            <th>Tarih</th>
+            <th>İşlem</th> <!-- Yeni sütun -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Number</td>
+                <td>@item.Product.Name</td>
+                <td>@(item.MovementType ? "Giriş" : "Çıkış")</td>
+                <td>@item.CreatedDate.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>
+                    <a href="@Url.Action("ScanBarcode", "Product", new { productId = item.ProductId })" class="btn btn-primary">Barkodu Tara</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

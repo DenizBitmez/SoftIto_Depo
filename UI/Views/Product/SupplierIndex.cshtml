@@ -1,0 +1,38 @@
+﻿@model List<Entity.Concrete1.Supplier>
+@{
+    ViewBag.Title = "SupplierIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>SupplierIndex</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Supplier Adı</th>
+            <th>Supplier</th>
+            <th>Telefon</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.ContactPerson</td>
+                <td>@item.Phone</td>
+                <td></td>
+                <td>
+                    <a href="@Url.Action("SupplierUpdate", "Product", new { id = item.SupplierId })" class="btn btn-primary">Düzenle</a>
+                    <a href="@Url.Action("SupplierDelete", "Product", new { id = item.SupplierId })" class="btn btn-danger">
+                        Sil
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+<a href="/Supplier/AddSupplier" class="btn btn-primary">Yeni Supplier Ekle</a>

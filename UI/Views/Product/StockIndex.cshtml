@@ -1,0 +1,42 @@
+﻿@model List<Entity.Concrete1.StockDetails>
+@{
+    ViewBag.Title = "StockIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>StockIndex</h2>
+
+
+
+<table class="table table-bordered">
+
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Ürün Id</th>
+            <th>Adet</th>
+            <th>Tarih</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.StockDetailsId</td>
+                <td>@item.ProductId</td>
+                <td>@item.Quantity</td>
+                <td>@item.Date</td>
+                <td>
+                    <a href="@Url.Action("UpdateStock", "Product", new { id = item.StockDetailsId })" class="btn btn-primary">Edit</a>
+                    <a href="@Url.Action("DeleteStock", "Product", new { id = item.StockDetailsId })" class="btn btn-danger">
+                        Sil
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<a href="/Product/AddStock" class="btn btn-primary">Stok Ekle</a>
+

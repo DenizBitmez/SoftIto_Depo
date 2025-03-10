@@ -1,0 +1,31 @@
+﻿@model Entity.Concrete1.Product
+@{
+    ViewBag.Title = "ProductUpdate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ProductUpdate</h2>
+@using (Html.BeginForm("ProductUpdate", "Product", FormMethod.Post))
+{
+    @Html.HiddenFor(model => model.ProductId)
+
+    <div class="form-group">
+        <label>Product Name</label>
+        @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Price</label>
+        @Html.TextBoxFor(model => model.Price, new { @class = "form-control", type = "number" })
+    </div>
+
+    <div class="form-group">
+        <label>Category</label>
+        @Html.DropDownListFor(model => model.CategoryId,
+            (ViewBag.Categories as List<SelectListItem>) ?? new List<SelectListItem>(),
+            "Select Category",
+            new { @class = "form-control" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+}

@@ -1,0 +1,34 @@
+﻿@using Entity.Concrete1
+@model List<Category>
+@{
+    ViewBag.Title = "CategoryIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CategoryIndex</h2>
+<h2>Index</h2>
+<table class="table table-bordered">
+
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Kategori Adı</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CategoryId</td>
+                <td>@item.Name</td>
+                <td>
+                    <a href="@Url.Action("CategoryUpdate", "Product", new { id = item.CategoryId })">Edit</a>
+                    <a href="@Url.Action("CategoryDelete", "Product", new { id = item.CategoryId })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<a href="/Product/CategoryAdd" class="btn btn-primary">Kategori Ekle</a>

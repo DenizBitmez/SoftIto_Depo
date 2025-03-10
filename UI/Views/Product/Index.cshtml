@@ -1,0 +1,41 @@
+﻿@using Entity.Concrete1
+@model List<Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<table class="table table-bordered">
+
+    <thead>
+        <tr>
+            <th>Ürün Adı</th>
+            <th>Ürün Stoğu</th>
+            <th>Ürün Fiyatı</th>
+            <th>Kategori ID</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                @*<td>@item.ProductId</td>*@
+                <td>@item.Name</td>
+                <td>@item.Stock</td>
+                <td>@item.Price</td>
+                <td>@item.CategoryId</td>
+                <td>
+                    <a href="@Url.Action("ProductUpdate", "Product", new { id = item.ProductId })">Edit</a>
+                    <a href="@Url.Action("ProductDelete", "Product", new { id = item.ProductId })" class="btn btn-danger">
+                        Sil
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<a href="/Product/ProductAdd" class="btn btn-primary">Kategori Ekle</a>
