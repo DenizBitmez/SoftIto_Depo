@@ -1,0 +1,491 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\deniz\\Depo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|c:\\users\\deniz\\depo\\business\\concrete\\barcodemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|solutionrelative:business\\concrete\\barcodemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|c:\\users\\deniz\\depo\\business\\concrete\\stockdetailsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|solutionrelative:business\\concrete\\stockdetailsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|c:\\users\\deniz\\depo\\business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|solutionrelative:business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|c:\\users\\deniz\\depo\\business\\concrete\\suppliermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|solutionrelative:business\\concrete\\suppliermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|c:\\users\\deniz\\depo\\business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|solutionrelative:business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|c:\\users\\deniz\\depo\\business\\concrete\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|solutionrelative:business\\concrete\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|c:\\users\\deniz\\depo\\business\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|solutionrelative:business\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|c:\\users\\deniz\\depo\\business\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|solutionrelative:business\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|c:\\users\\deniz\\depo\\business\\abstract\\isupplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|solutionrelative:business\\abstract\\isupplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|c:\\users\\deniz\\depo\\business\\abstract\\istockdetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|solutionrelative:business\\abstract\\istockdetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|c:\\users\\deniz\\depo\\business\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|solutionrelative:business\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|c:\\users\\deniz\\depo\\business\\abstract\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|solutionrelative:business\\abstract\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|c:\\users\\deniz\\depo\\business\\abstract\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|solutionrelative:business\\abstract\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|c:\\users\\deniz\\depo\\business\\abstract\\ibarcodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092F850-BF18-4ECC-8235-168E501CA832}|Business\\Business.csproj|solutionrelative:business\\abstract\\ibarcodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F219DF0-DE42-4C85-99A9-498A6B34BCB4}|Entity\\Entity.csproj|C:\\Users\\deniz\\Depo\\entity\\concrete1\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F219DF0-DE42-4C85-99A9-498A6B34BCB4}|Entity\\Entity.csproj|solutionrelative:entity\\concrete1\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F219DF0-DE42-4C85-99A9-498A6B34BCB4}|Entity\\Entity.csproj|C:\\Users\\deniz\\Depo\\entity\\concrete1\\barcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F219DF0-DE42-4C85-99A9-498A6B34BCB4}|Entity\\Entity.csproj|solutionrelative:entity\\concrete1\\barcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80F6843-AA79-4B47-8ADD-E6660E073598}|UI\\UI.csproj|c:\\users\\deniz\\depo\\ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B80F6843-AA79-4B47-8ADD-E6660E073598}|UI\\UI.csproj|solutionrelative:ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80F6843-AA79-4B47-8ADD-E6660E073598}|UI\\UI.csproj|C:\\Users\\deniz\\Depo\\ui\\views\\product\\supplierindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B80F6843-AA79-4B47-8ADD-E6660E073598}|UI\\UI.csproj|solutionrelative:ui\\views\\product\\supplierindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80F6843-AA79-4B47-8ADD-E6660E073598}|UI\\UI.csproj|C:\\Users\\deniz\\Depo\\ui\\views\\product\\supplierupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B80F6843-AA79-4B47-8ADD-E6660E073598}|UI\\UI.csproj|solutionrelative:ui\\views\\product\\supplierupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80F6843-AA79-4B47-8ADD-E6660E073598}|UI\\UI.csproj|C:\\Users\\deniz\\Depo\\ui\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B80F6843-AA79-4B47-8ADD-E6660E073598}|UI\\UI.csproj|solutionrelative:ui\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80F6843-AA79-4B47-8ADD-E6660E073598}|UI\\UI.csproj|C:\\Users\\deniz\\Depo\\ui\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B80F6843-AA79-4B47-8ADD-E6660E073598}|UI\\UI.csproj|solutionrelative:ui\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80F6843-AA79-4B47-8ADD-E6660E073598}|UI\\UI.csproj|C:\\Users\\deniz\\Depo\\ui\\views\\product\\scanbarcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B80F6843-AA79-4B47-8ADD-E6660E073598}|UI\\UI.csproj|solutionrelative:ui\\views\\product\\scanbarcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80F6843-AA79-4B47-8ADD-E6660E073598}|UI\\UI.csproj|C:\\Users\\deniz\\Depo\\ui\\views\\product\\supplieradd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B80F6843-AA79-4B47-8ADD-E6660E073598}|UI\\UI.csproj|solutionrelative:ui\\views\\product\\supplieradd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B80F6843-AA79-4B47-8ADD-E6660E073598}|UI\\UI.csproj|C:\\Users\\deniz\\Depo\\ui\\views\\product\\scanindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B80F6843-AA79-4B47-8ADD-E6660E073598}|UI\\UI.csproj|solutionrelative:ui\\views\\product\\scanindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F219DF0-DE42-4C85-99A9-498A6B34BCB4}|Entity\\Entity.csproj|C:\\Users\\deniz\\Depo\\entity\\concrete1\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F219DF0-DE42-4C85-99A9-498A6B34BCB4}|Entity\\Entity.csproj|solutionrelative:entity\\concrete1\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A8507E-D977-4DC9-89CF-BA11B0ABCA64}|Data\\Data.csproj|C:\\Users\\deniz\\Depo\\data\\migrations\\202503101750058_mgr6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A8507E-D977-4DC9-89CF-BA11B0ABCA64}|Data\\Data.csproj|solutionrelative:data\\migrations\\202503101750058_mgr6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1498,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\Business\\Concrete\\UserManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\UserManager.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\Business\\Concrete\\UserManager.cs*",
+              "RelativeToolTip": "Business\\Concrete\\UserManager.cs*",
+              "ViewState": "AgIAACkAAAAAAAAAAAA9wC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:14:31.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SupplierManager.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\Business\\Concrete\\SupplierManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\SupplierManager.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\Business\\Concrete\\SupplierManager.cs*",
+              "RelativeToolTip": "Business\\Concrete\\SupplierManager.cs*",
+              "ViewState": "AgIAACkAAAAAAAAAAAA9wC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:14:28.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StockDetailsManager.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\Business\\Concrete\\StockDetailsManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\StockDetailsManager.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\Business\\Concrete\\StockDetailsManager.cs*",
+              "RelativeToolTip": "Business\\Concrete\\StockDetailsManager.cs*",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:14:24.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductManager.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\Business\\Concrete\\ProductManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\ProductManager.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\Business\\Concrete\\ProductManager.cs*",
+              "RelativeToolTip": "Business\\Concrete\\ProductManager.cs*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:14:19.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderManager.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\Business\\Concrete\\OrderManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\OrderManager.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\Business\\Concrete\\OrderManager.cs*",
+              "RelativeToolTip": "Business\\Concrete\\OrderManager.cs*",
+              "ViewState": "AgIAACQAAAAAAAAAAAA7wC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:14:16.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\Business\\Concrete\\CategoryManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\CategoryManager.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\Business\\Concrete\\CategoryManager.cs*",
+              "RelativeToolTip": "Business\\Concrete\\CategoryManager.cs*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:14:11.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BarcodeManager.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\Business\\Concrete\\BarcodeManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\BarcodeManager.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\Business\\Concrete\\BarcodeManager.cs*",
+              "RelativeToolTip": "Business\\Concrete\\BarcodeManager.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:14:07.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\Business\\Abstract\\IUserService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IUserService.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\Business\\Abstract\\IUserService.cs*",
+              "RelativeToolTip": "Business\\Abstract\\IUserService.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:14:04.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ISupplierService.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\Business\\Abstract\\ISupplierService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\ISupplierService.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\Business\\Abstract\\ISupplierService.cs*",
+              "RelativeToolTip": "Business\\Abstract\\ISupplierService.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:14:01.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IStockDetailsService.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\Business\\Abstract\\IStockDetailsService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IStockDetailsService.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\Business\\Abstract\\IStockDetailsService.cs*",
+              "RelativeToolTip": "Business\\Abstract\\IStockDetailsService.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:13:58.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\Business\\Abstract\\IProductService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IProductService.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\Business\\Abstract\\IProductService.cs*",
+              "RelativeToolTip": "Business\\Abstract\\IProductService.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:13:56.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\Business\\Abstract\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\Business\\Abstract\\IOrderService.cs*",
+              "RelativeToolTip": "Business\\Abstract\\IOrderService.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:13:52.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\Business\\Abstract\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\Business\\Abstract\\ICategoryService.cs*",
+              "RelativeToolTip": "Business\\Abstract\\ICategoryService.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:13:48.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IBarcodeService.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\Business\\Abstract\\IBarcodeService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IBarcodeService.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\Business\\Abstract\\IBarcodeService.cs*",
+              "RelativeToolTip": "Business\\Abstract\\IBarcodeService.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:13:42.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "UI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T18:06:14.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SupplierIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\UI\\Views\\Product\\SupplierIndex.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Product\\SupplierIndex.cshtml",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\UI\\Views\\Product\\SupplierIndex.cshtml",
+              "RelativeToolTip": "UI\\Views\\Product\\SupplierIndex.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T18:04:46.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SupplierUpdate.cshtml",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\UI\\Views\\Product\\SupplierUpdate.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Product\\SupplierUpdate.cshtml",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\UI\\Views\\Product\\SupplierUpdate.cshtml",
+              "RelativeToolTip": "UI\\Views\\Product\\SupplierUpdate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T18:02:41.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ScanIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\UI\\Views\\Product\\ScanIndex.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Product\\ScanIndex.cshtml",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\UI\\Views\\Product\\ScanIndex.cshtml",
+              "RelativeToolTip": "UI\\Views\\Product\\ScanIndex.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T17:54:36.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "202503101750058_mgr6.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\Data\\Migrations\\202503101750058_mgr6.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\202503101750058_mgr6.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\Data\\Migrations\\202503101750058_mgr6.cs",
+              "RelativeToolTip": "Data\\Migrations\\202503101750058_mgr6.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:50:10.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\Entity\\Concrete1\\Category.cs",
+              "RelativeDocumentMoniker": "Entity\\Concrete1\\Category.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\Entity\\Concrete1\\Category.cs",
+              "RelativeToolTip": "Entity\\Concrete1\\Category.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:44:14.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\Entity\\Concrete1\\Product.cs",
+              "RelativeDocumentMoniker": "Entity\\Concrete1\\Product.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\Entity\\Concrete1\\Product.cs",
+              "RelativeToolTip": "Entity\\Concrete1\\Product.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:43:16.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\UI\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "UI\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\UI\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "UI\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:39:23.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SupplierAdd.cshtml",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\UI\\Views\\Product\\SupplierAdd.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Product\\SupplierAdd.cshtml",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\UI\\Views\\Product\\SupplierAdd.cshtml",
+              "RelativeToolTip": "UI\\Views\\Product\\SupplierAdd.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T17:24:05.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Barcode.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\Entity\\Concrete1\\Barcode.cs",
+              "RelativeDocumentMoniker": "Entity\\Concrete1\\Barcode.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\Entity\\Concrete1\\Barcode.cs*",
+              "RelativeToolTip": "Entity\\Concrete1\\Barcode.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T12:45:01.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ScanBarcode.cshtml",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\UI\\Views\\Product\\ScanBarcode.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Product\\ScanBarcode.cshtml",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\UI\\Views\\Product\\ScanBarcode.cshtml",
+              "RelativeToolTip": "UI\\Views\\Product\\ScanBarcode.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T11:43:11.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\Depo\\UI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\deniz\\Depo\\UI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "UI\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAABgBAAAAAAAAAAAqwCoBAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T11:42:50.612Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
